@@ -12,9 +12,9 @@
     <artifactId>learndevops</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>learndevops</name>
+    <packaging>jar</packaging>
     <description>Learning DevOps Basics</description>
     <properties>
-        <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -36,6 +36,8 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+
+        <finalName>devops-demo</finalName>
     </build>
 
 </project>
