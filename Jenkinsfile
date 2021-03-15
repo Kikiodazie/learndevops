@@ -29,6 +29,7 @@ node {
 	      dockerImage = docker.build("learndevops:${env.BUILD_NUMBER}")
 	    }
 
+
 	    stage('Deploy Docker Image'){
 
 	      // deploy docker image to nexus
